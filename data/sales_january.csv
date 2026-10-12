@@ -1,0 +1,11 @@
+OrderID,OrderDate,Region,Product,Quantity,UnitPrice,Salesperson
+1001,2026-01-03,North,Laptop,2,55000,Aarav
+1002,2026-01-05,South,Mouse,10,450,Diya
+1003,2026-01-08,East,Keyboard,5,1200,Ishaan
+1004,2026-01-10,West,Monitor,3,12500,Meera
+1005,2026-01-12,North,Headphones,4,1800,Aarav
+1006,2026-01-14,South,Laptop,1,55000,Diya
+1007,2026-01-18,East,Mouse,8,450,Ishaan
+1008,2026-01-21,West,Keyboard,6,1200,Meera
+1009,2026-01-25,North,Monitor,2,12500,Aarav
+1010,2026-01-29,South,Headphones,7,1800,Diya

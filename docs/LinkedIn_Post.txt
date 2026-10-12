@@ -1,0 +1,22 @@
+My first steps with Alteryx started with a simple task: combine five monthly CSV files and summarise product quantities.
+
+I have now expanded that practice project into a sales-performance workflow with:
+
+• Numeric and date conversions, plus text cleaning
+• Validation rules and duplicate-order checks
+• Sales-value calculations and percentage contribution
+• Product, monthly and regional summaries
+• Separate outputs for records that need review
+• A clearly labelled canvas to make the process easier to follow
+
+The full workflow ran successfully on 50 practice records, covering 253 units.
+
+One finding stood out: Mouse contributed 40.3% of units sold, while Laptop contributed 63.7% of sales value. Comparing volume and value gave me a much clearer view of product performance.
+
+I am still early in my Alteryx learning journey. This project helped me understand how data preparation, quality checks and analysis fit together in a repeatable workflow.
+
+What would you add to improve this workflow further?
+
+#Alteryx #DataAnalytics #DataPreparation #LearningInPublic
+
+Project on GitHub: https://github.com/mukherjeesourav687/alteryx-sales-performance

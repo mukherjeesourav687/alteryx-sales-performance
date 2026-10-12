@@ -1,0 +1,1771 @@
+{
+  "connections": [
+    {
+      "@name": "#1",
+      "Origin": {
+        "@ToolID": "1",
+        "@Connection": "Output"
+      },
+      "Destination": {
+        "@ToolID": "6",
+        "@Connection": "Input"
+      }
+    },
+    {
+      "@name": "#2",
+      "Origin": {
+        "@ToolID": "2",
+        "@Connection": "Output"
+      },
+      "Destination": {
+        "@ToolID": "6",
+        "@Connection": "Input"
+      }
+    },
+    {
+      "@name": "#3",
+      "Origin": {
+        "@ToolID": "3",
+        "@Connection": "Output"
+      },
+      "Destination": {
+        "@ToolID": "6",
+        "@Connection": "Input"
+      }
+    },
+    {
+      "@name": "#4",
+      "Origin": {
+        "@ToolID": "4",
+        "@Connection": "Output"
+      },
+      "Destination": {
+        "@ToolID": "6",
+        "@Connection": "Input"
+      }
+    },
+    {
+      "@name": "#5",
+      "Origin": {
+        "@ToolID": "5",
+        "@Connection": "Output"
+      },
+      "Destination": {
+        "@ToolID": "6",
+        "@Connection": "Input"
+      }
+    },
+    {
+      "Origin": {
+        "@ToolID": "6",
+        "@Connection": "Output"
+      },
+      "Destination": {
+        "@ToolID": "7",
+        "@Connection": "Input"
+      }
+    },
+    {
+      "Origin": {
+        "@ToolID": "7",
+        "@Connection": "Output"
+      },
+      "Destination": {
+        "@ToolID": "8",
+        "@Connection": "Input"
+      }
+    },
+    {
+      "Origin": {
+        "@ToolID": "8",
+        "@Connection": "Output"
+      },
+      "Destination": {
+        "@ToolID": "9",
+        "@Connection": "Input"
+      }
+    },
+    {
+      "Origin": {
+        "@ToolID": "9",
+        "@Connection": "True"
+      },
+      "Destination": {
+        "@ToolID": "10",
+        "@Connection": "Input"
+      }
+    },
+    {
+      "Origin": {
+        "@ToolID": "9",
+        "@Connection": "False"
+      },
+      "Destination": {
+        "@ToolID": "12",
+        "@Connection": "Input"
+      }
+    },
+    {
+      "Origin": {
+        "@ToolID": "10",
+        "@Connection": "Unique"
+      },
+      "Destination": {
+        "@ToolID": "11",
+        "@Connection": "Input"
+      }
+    },
+    {
+      "Origin": {
+        "@ToolID": "10",
+        "@Connection": "Duplicates"
+      },
+      "Destination": {
+        "@ToolID": "13",
+        "@Connection": "Input"
+      }
+    },
+    {
+      "Origin": {
+        "@ToolID": "11",
+        "@Connection": "Output"
+      },
+      "Destination": {
+        "@ToolID": "14",
+        "@Connection": "Input"
+      }
+    },
+    {
+      "Origin": {
+        "@ToolID": "11",
+        "@Connection": "Output"
+      },
+      "Destination": {
+        "@ToolID": "15",
+        "@Connection": "Input"
+      }
+    },
+    {
+      "Origin": {
+        "@ToolID": "11",
+        "@Connection": "Output"
+      },
+      "Destination": {
+        "@ToolID": "20",
+        "@Connection": "Input"
+      }
+    },
+    {
+      "Origin": {
+        "@ToolID": "11",
+        "@Connection": "Output"
+      },
+      "Destination": {
+        "@ToolID": "23",
+        "@Connection": "Input"
+      }
+    },
+    {
+      "Origin": {
+        "@ToolID": "14",
+        "@Connection": "Output"
+      },
+      "Destination": {
+        "@ToolID": "16",
+        "@Connection": "Targets"
+      }
+    },
+    {
+      "Origin": {
+        "@ToolID": "15",
+        "@Connection": "Output"
+      },
+      "Destination": {
+        "@ToolID": "16",
+        "@Connection": "Source"
+      }
+    },
+    {
+      "Origin": {
+        "@ToolID": "16",
+        "@Connection": "Output"
+      },
+      "Destination": {
+        "@ToolID": "17",
+        "@Connection": "Input"
+      }
+    },
+    {
+      "Origin": {
+        "@ToolID": "17",
+        "@Connection": "Output"
+      },
+      "Destination": {
+        "@ToolID": "18",
+        "@Connection": "Input"
+      }
+    },
+    {
+      "Origin": {
+        "@ToolID": "18",
+        "@Connection": "Output"
+      },
+      "Destination": {
+        "@ToolID": "19",
+        "@Connection": "Input"
+      }
+    },
+    {
+      "Origin": {
+        "@ToolID": "20",
+        "@Connection": "Output"
+      },
+      "Destination": {
+        "@ToolID": "21",
+        "@Connection": "Input"
+      }
+    },
+    {
+      "Origin": {
+        "@ToolID": "21",
+        "@Connection": "Output"
+      },
+      "Destination": {
+        "@ToolID": "22",
+        "@Connection": "Input"
+      }
+    },
+    {
+      "Origin": {
+        "@ToolID": "23",
+        "@Connection": "Output"
+      },
+      "Destination": {
+        "@ToolID": "24",
+        "@Connection": "Input"
+      }
+    },
+    {
+      "Origin": {
+        "@ToolID": "24",
+        "@Connection": "Output"
+      },
+      "Destination": {
+        "@ToolID": "25",
+        "@Connection": "Input"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "@ToolID": "1",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "January 2026",
+          "DefaultAnnotationText": "January 2026"
+        },
+        "Configuration": {
+          "__page": "LIST_CONNECTIONS",
+          "VendorName": "",
+          "HasInferred": false,
+          "__tableName": "",
+          "ConnectionId": "",
+          "__schemaName": "",
+          "ConnectionName": "",
+          "__previousPage": "LIST_CONNECTIONS"
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxBasePluginsGui.UniversalInput.UniversalInput",
+        "Position": {
+          "@x": "20",
+          "@y": "145"
+        }
+      },
+      "EngineSettings": {
+        "@EngineDll": "UniversalInputTool.dll",
+        "@EngineDllEntryPoint": "UniversalInputTool"
+      }
+    },
+    {
+      "@ToolID": "2",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "February 2026",
+          "DefaultAnnotationText": "February 2026"
+        },
+        "Configuration": {
+          "__page": "LIST_CONNECTIONS",
+          "VendorName": "",
+          "HasInferred": false,
+          "__tableName": "",
+          "ConnectionId": "",
+          "__schemaName": "",
+          "ConnectionName": "",
+          "__previousPage": "LIST_CONNECTIONS"
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxBasePluginsGui.UniversalInput.UniversalInput",
+        "Position": {
+          "@x": "20",
+          "@y": "250"
+        }
+      },
+      "EngineSettings": {
+        "@EngineDll": "UniversalInputTool.dll",
+        "@EngineDllEntryPoint": "UniversalInputTool"
+      }
+    },
+    {
+      "@ToolID": "3",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "March 2026",
+          "DefaultAnnotationText": "March 2026"
+        },
+        "Configuration": {
+          "__page": "LIST_CONNECTIONS",
+          "VendorName": "",
+          "HasInferred": false,
+          "__tableName": "",
+          "ConnectionId": "",
+          "__schemaName": "",
+          "ConnectionName": "",
+          "__previousPage": "LIST_CONNECTIONS"
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxBasePluginsGui.UniversalInput.UniversalInput",
+        "Position": {
+          "@x": "20",
+          "@y": "355"
+        }
+      },
+      "EngineSettings": {
+        "@EngineDll": "UniversalInputTool.dll",
+        "@EngineDllEntryPoint": "UniversalInputTool"
+      }
+    },
+    {
+      "@ToolID": "4",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "April 2026",
+          "DefaultAnnotationText": "April 2026"
+        },
+        "Configuration": {
+          "__page": "LIST_CONNECTIONS",
+          "VendorName": "",
+          "HasInferred": false,
+          "__tableName": "",
+          "ConnectionId": "",
+          "__schemaName": "",
+          "ConnectionName": "",
+          "__previousPage": "LIST_CONNECTIONS"
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxBasePluginsGui.UniversalInput.UniversalInput",
+        "Position": {
+          "@x": "20",
+          "@y": "460"
+        }
+      },
+      "EngineSettings": {
+        "@EngineDll": "UniversalInputTool.dll",
+        "@EngineDllEntryPoint": "UniversalInputTool"
+      }
+    },
+    {
+      "@ToolID": "5",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "May 2026",
+          "DefaultAnnotationText": "May 2026"
+        },
+        "Configuration": {
+          "__page": "LIST_CONNECTIONS",
+          "VendorName": "",
+          "HasInferred": false,
+          "__tableName": "",
+          "ConnectionId": "",
+          "__schemaName": "",
+          "ConnectionName": "",
+          "__previousPage": "LIST_CONNECTIONS"
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxBasePluginsGui.UniversalInput.UniversalInput",
+        "Position": {
+          "@x": "20",
+          "@y": "565"
+        }
+      },
+      "EngineSettings": {
+        "@EngineDll": "UniversalInputTool.dll",
+        "@EngineDllEntryPoint": "UniversalInputTool"
+      }
+    },
+    {
+      "@ToolID": "6",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "Combine monthly files\nMatch column names",
+          "DefaultAnnotationText": "Combine monthly files\nMatch column names"
+        },
+        "Configuration": {
+          "Mode": "ByName",
+          "SetOutputOrder": {
+            "@value": "False"
+          },
+          "ByName_ErrorMode": "Warning",
+          "ByName_OutputMode": "All"
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxBasePluginsGui.Union.Union",
+        "Position": {
+          "@x": "180",
+          "@y": "355"
+        }
+      },
+      "EngineSettings": {
+        "@EngineDll": "AlteryxBasePluginsEngine.dll",
+        "@EngineDllEntryPoint": "AlteryxUnion"
+      }
+    },
+    {
+      "@ToolID": "7",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "Set numeric and date types",
+          "DefaultAnnotationText": "Set numeric and date types"
+        },
+        "Configuration": {
+          "CommaDecimal": {
+            "@value": "False"
+          },
+          "OrderChanged": {
+            "@value": "False"
+          },
+          "SelectFields": {
+            "SelectField": [
+              {
+                "@size": "8",
+                "@type": "Int64",
+                "@field": "OrderID",
+                "@selected": "True"
+              },
+              {
+                "@size": "10",
+                "@type": "Date",
+                "@field": "OrderDate",
+                "@selected": "True"
+              },
+              {
+                "@size": "8",
+                "@type": "Int64",
+                "@field": "Quantity",
+                "@selected": "True"
+              },
+              {
+                "@size": "8",
+                "@type": "Int64",
+                "@field": "UnitPrice",
+                "@selected": "True"
+              },
+              {
+                "@field": "*Unknown",
+                "@selected": "True"
+              }
+            ]
+          }
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect",
+        "Position": {
+          "@x": "310",
+          "@y": "355"
+        }
+      },
+      "EngineSettings": {
+        "@EngineDll": "AlteryxBasePluginsEngine.dll",
+        "@EngineDllEntryPoint": "AlteryxSelect"
+      }
+    },
+    {
+      "@ToolID": "8",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "Trim descriptive fields",
+          "DefaultAnnotationText": "Trim descriptive fields"
+        },
+        "Configuration": {
+          "FormulaFields": {
+            "FormulaField": [
+              {
+                "@size": "255",
+                "@type": "V_WString",
+                "@field": "Product",
+                "@value": "",
+                "@enabled": "True",
+                "@expanded": "True",
+                "@expression": "Trim([Product])"
+              },
+              {
+                "@size": "255",
+                "@type": "V_WString",
+                "@field": "Region",
+                "@value": "",
+                "@enabled": "True",
+                "@expanded": "True",
+                "@expression": "Trim([Region])"
+              },
+              {
+                "@size": "255",
+                "@type": "V_WString",
+                "@field": "Salesperson",
+                "@value": "",
+                "@enabled": "True",
+                "@expanded": "True",
+                "@expression": "Trim([Salesperson])"
+              }
+            ]
+          }
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxBasePluginsGui.Formula.Formula",
+        "Position": {
+          "@x": "440",
+          "@y": "355"
+        }
+      },
+      "EngineSettings": {
+        "@EngineDll": "AlteryxBasePluginsEngine.dll",
+        "@EngineDllEntryPoint": "AlteryxFormula"
+      }
+    },
+    {
+      "@ToolID": "9",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "Validate required values\nT: accepted | F: review",
+          "DefaultAnnotationText": "Validate required values\nT: accepted | F: review"
+        },
+        "Configuration": {
+          "Mode": "Custom",
+          "Simple": {
+            "Operands": {
+              "Operand": ""
+            },
+            "Operator": "="
+          },
+          "Expression": "!IsNull([OrderID]) AND !IsNull([OrderDate]) AND !IsEmpty([Product]) AND !IsNull([Quantity]) AND !IsNull([UnitPrice]) AND [Quantity] > 0 AND [UnitPrice] >= 0"
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxBasePluginsGui.Filter.Filter",
+        "Position": {
+          "@x": "570",
+          "@y": "355"
+        }
+      },
+      "EngineSettings": {
+        "@EngineDll": "AlteryxBasePluginsEngine.dll",
+        "@EngineDllEntryPoint": "AlteryxFilter"
+      }
+    },
+    {
+      "@ToolID": "10",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "Check unique OrderID\nOne row per order",
+          "DefaultAnnotationText": "Check unique OrderID\nOne row per order"
+        },
+        "Configuration": {
+          "SortInfo": {
+            "Field": [],
+            "@locale": "1033"
+          },
+          "UniqueFields": {
+            "Field": [
+              {
+                "@field": "OrderID"
+              }
+            ]
+          }
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxBasePluginsGui.Unique.Unique",
+        "Position": {
+          "@x": "700",
+          "@y": "355"
+        }
+      },
+      "EngineSettings": {
+        "@EngineDll": "AlteryxBasePluginsEngine.dll",
+        "@EngineDllEntryPoint": "AlteryxUnique"
+      }
+    },
+    {
+      "@ToolID": "11",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "Calculate value and month",
+          "DefaultAnnotationText": "Calculate value and month"
+        },
+        "Configuration": {
+          "FormulaFields": {
+            "FormulaField": [
+              {
+                "@size": "8",
+                "@type": "Double",
+                "@field": "SalesValue",
+                "@value": "",
+                "@enabled": "True",
+                "@expanded": "True",
+                "@expression": "[Quantity] * [UnitPrice]"
+              },
+              {
+                "@size": "255",
+                "@type": "V_WString",
+                "@field": "Month",
+                "@value": "",
+                "@enabled": "True",
+                "@expanded": "True",
+                "@expression": "DateTimeFormat([OrderDate],\"%Y-%m\")"
+              }
+            ]
+          }
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxBasePluginsGui.Formula.Formula",
+        "Position": {
+          "@x": "830",
+          "@y": "355"
+        }
+      },
+      "EngineSettings": {
+        "@EngineDll": "AlteryxBasePluginsEngine.dll",
+        "@EngineDllEntryPoint": "AlteryxFormula"
+      }
+    },
+    {
+      "@ToolID": "12",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "sales_invalid_records",
+          "DefaultAnnotationText": ""
+        },
+        "Configuration": {
+          "Path": "",
+          "Delim": ",",
+          "Action": "create",
+          "Format": "csv",
+          "Header": true,
+          "__page": "LIST_CONNECTIONS",
+          "FileName": "sales_invalid_records",
+          "HasQuotes": true,
+          "Operation": "create",
+          "SheetName": "Sheet1",
+          "TableName": "",
+          "TargetType": "",
+          "VendorName": "",
+          "__isLoaded": false,
+          "TableSchema": "",
+          "ColsToUpdate": null,
+          "ConnectionId": "-1",
+          "InsertChecked": null,
+          "MergeJoinKeys": null,
+          "PartitionName": "suffixToFileName",
+          "PartitionType": "noPartition",
+          "ConnectionName": "",
+          "OutputObjectId": null,
+          "OutputSettings": null,
+          "__previousPage": "LIST_CONNECTIONS",
+          "LastBrowsedPath": "",
+          "TableSchemaList": null,
+          "OnEveryRunAction": "",
+          "SelectedProtocol": "tfs",
+          "DatasetOriginator": true,
+          "IncludeMismatches": false,
+          "MatchedRowsAction": null,
+          "FileWriterSettingsId": "",
+          "PartitionUsingColumn": "",
+          "PublicationSettingsId": "",
+          "ConversionOutputSettings": {
+            "action": "create",
+            "subAction": "create"
+          },
+          "ColumnOutputConfiguration": null,
+          "DeleteUnmatchedRowsInTarget": null,
+          "SelectedColumnInclusionInPartition": true
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxBasePluginsGui.UniversalOutput.UniversalOutput",
+        "Position": {
+          "@x": "570",
+          "@y": "585"
+        }
+      },
+      "EngineSettings": {
+        "@EngineDll": "UniversalOutputTool.dll",
+        "@EngineDllEntryPoint": "UniversalOutputTool"
+      }
+    },
+    {
+      "@ToolID": "13",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "sales_duplicate_review",
+          "DefaultAnnotationText": ""
+        },
+        "Configuration": {
+          "Path": "",
+          "Delim": ",",
+          "Action": "create",
+          "Format": "csv",
+          "Header": true,
+          "__page": "LIST_CONNECTIONS",
+          "FileName": "sales_duplicate_review",
+          "HasQuotes": true,
+          "Operation": "create",
+          "SheetName": "Sheet1",
+          "TableName": "",
+          "TargetType": "",
+          "VendorName": "",
+          "__isLoaded": false,
+          "TableSchema": "",
+          "ColsToUpdate": null,
+          "ConnectionId": "-1",
+          "InsertChecked": null,
+          "MergeJoinKeys": null,
+          "PartitionName": "suffixToFileName",
+          "PartitionType": "noPartition",
+          "ConnectionName": "",
+          "OutputObjectId": null,
+          "OutputSettings": null,
+          "__previousPage": "LIST_CONNECTIONS",
+          "LastBrowsedPath": "",
+          "TableSchemaList": null,
+          "OnEveryRunAction": "",
+          "SelectedProtocol": "tfs",
+          "DatasetOriginator": true,
+          "IncludeMismatches": false,
+          "MatchedRowsAction": null,
+          "FileWriterSettingsId": "",
+          "PartitionUsingColumn": "",
+          "PublicationSettingsId": "",
+          "ConversionOutputSettings": {
+            "action": "create",
+            "subAction": "create"
+          },
+          "ColumnOutputConfiguration": null,
+          "DeleteUnmatchedRowsInTarget": null,
+          "SelectedColumnInclusionInPartition": true
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxBasePluginsGui.UniversalOutput.UniversalOutput",
+        "Position": {
+          "@x": "700",
+          "@y": "585"
+        }
+      },
+      "EngineSettings": {
+        "@EngineDll": "UniversalOutputTool.dll",
+        "@EngineDllEntryPoint": "UniversalOutputTool"
+      }
+    },
+    {
+      "@ToolID": "14",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "Product performance",
+          "DefaultAnnotationText": "Product performance"
+        },
+        "Configuration": {
+          "SortInfo": {
+            "@locale": "1033"
+          },
+          "SummarizeFields": {
+            "SummarizeField": [
+              {
+                "@field": "Product",
+                "@action": "GroupBy",
+                "@rename": "Product"
+              },
+              {
+                "@field": "Quantity",
+                "@action": "Sum",
+                "@rename": "Units"
+              },
+              {
+                "@field": "SalesValue",
+                "@action": "Sum",
+                "@rename": "SalesValue"
+              },
+              {
+                "@field": "OrderID",
+                "@action": "Count",
+                "@rename": "OrderCount"
+              }
+            ]
+          }
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxSpatialPluginsGui.Summarize.Summarize",
+        "Position": {
+          "@x": "990",
+          "@y": "185"
+        }
+      },
+      "EngineSettings": {
+        "@EngineDll": "AlteryxSpatialPluginsEngine.dll",
+        "@EngineDllEntryPoint": "AlteryxSummarize"
+      }
+    },
+    {
+      "@ToolID": "15",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "Grand total for shares",
+          "DefaultAnnotationText": "Grand total for shares"
+        },
+        "Configuration": {
+          "SortInfo": {
+            "@locale": "1033"
+          },
+          "SummarizeFields": {
+            "SummarizeField": [
+              {
+                "@field": "SalesValue",
+                "@action": "Sum",
+                "@rename": "TotalSalesValue"
+              },
+              {
+                "@field": "Quantity",
+                "@action": "Sum",
+                "@rename": "TotalUnits"
+              }
+            ]
+          }
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxSpatialPluginsGui.Summarize.Summarize",
+        "Position": {
+          "@x": "990",
+          "@y": "55"
+        }
+      },
+      "EngineSettings": {
+        "@EngineDll": "AlteryxSpatialPluginsEngine.dll",
+        "@EngineDllEntryPoint": "AlteryxSummarize"
+      }
+    },
+    {
+      "@ToolID": "16",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "Append dynamic grand total",
+          "DefaultAnnotationText": "Append dynamic grand total"
+        },
+        "Configuration": {
+          "CartesianMode": "Error",
+          "SelectConfiguration": {
+            "Configuration": {
+              "CommaDecimal": {
+                "@value": "False"
+              },
+              "OrderChanged": {
+                "@value": "False"
+              },
+              "SelectFields": {
+                "SelectField": [
+                  {
+                    "@field": "*Unknown",
+                    "@selected": "True"
+                  }
+                ]
+              },
+              "@outputConnection": "Output"
+            }
+          }
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxBasePluginsGui.AppendFields.AppendFields",
+        "Position": {
+          "@x": "1130",
+          "@y": "185"
+        }
+      },
+      "EngineSettings": {
+        "@EngineDll": "AlteryxBasePluginsEngine.dll",
+        "@EngineDllEntryPoint": "AlteryxAppendFields"
+      }
+    },
+    {
+      "@ToolID": "17",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "Calculate contribution (%)",
+          "DefaultAnnotationText": "Calculate contribution (%)"
+        },
+        "Configuration": {
+          "FormulaFields": {
+            "FormulaField": [
+              {
+                "@size": "8",
+                "@type": "Double",
+                "@field": "SalesSharePct",
+                "@value": "",
+                "@enabled": "True",
+                "@expanded": "True",
+                "@expression": "IF [TotalSalesValue] > 0 THEN 100 * [SalesValue] / [TotalSalesValue] ELSE 0 ENDIF"
+              },
+              {
+                "@size": "8",
+                "@type": "Double",
+                "@field": "UnitSharePct",
+                "@value": "",
+                "@enabled": "True",
+                "@expanded": "True",
+                "@expression": "IF [TotalUnits] > 0 THEN 100 * [Units] / [TotalUnits] ELSE 0 ENDIF"
+              }
+            ]
+          }
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxBasePluginsGui.Formula.Formula",
+        "Position": {
+          "@x": "1270",
+          "@y": "185"
+        }
+      },
+      "EngineSettings": {
+        "@EngineDll": "AlteryxBasePluginsEngine.dll",
+        "@EngineDllEntryPoint": "AlteryxFormula"
+      }
+    },
+    {
+      "@ToolID": "18",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "Leaderboard by sales value",
+          "DefaultAnnotationText": "Leaderboard by sales value"
+        },
+        "Configuration": {
+          "SortInfo": {
+            "Field": [
+              {
+                "@field": "SalesValue",
+                "@order": "Descending"
+              }
+            ],
+            "@locale": "1033"
+          }
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxBasePluginsGui.Sort.Sort",
+        "Position": {
+          "@x": "1410",
+          "@y": "185"
+        }
+      },
+      "EngineSettings": {
+        "@EngineDll": "AlteryxBasePluginsEngine.dll",
+        "@EngineDllEntryPoint": "AlteryxSort"
+      }
+    },
+    {
+      "@ToolID": "19",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "product_performance",
+          "DefaultAnnotationText": ""
+        },
+        "Configuration": {
+          "Path": "",
+          "Delim": ",",
+          "Action": "create",
+          "Format": "csv",
+          "Header": true,
+          "__page": "LIST_CONNECTIONS",
+          "FileName": "product_performance",
+          "HasQuotes": true,
+          "Operation": "create",
+          "SheetName": "Sheet1",
+          "TableName": "",
+          "TargetType": "",
+          "VendorName": "",
+          "__isLoaded": false,
+          "TableSchema": "",
+          "ColsToUpdate": null,
+          "ConnectionId": "-1",
+          "InsertChecked": null,
+          "MergeJoinKeys": null,
+          "PartitionName": "suffixToFileName",
+          "PartitionType": "noPartition",
+          "ConnectionName": "",
+          "OutputObjectId": null,
+          "OutputSettings": null,
+          "__previousPage": "LIST_CONNECTIONS",
+          "LastBrowsedPath": "",
+          "TableSchemaList": null,
+          "OnEveryRunAction": "",
+          "SelectedProtocol": "tfs",
+          "DatasetOriginator": true,
+          "IncludeMismatches": false,
+          "MatchedRowsAction": null,
+          "FileWriterSettingsId": "",
+          "PartitionUsingColumn": "",
+          "PublicationSettingsId": "",
+          "ConversionOutputSettings": {
+            "action": "create",
+            "subAction": "create"
+          },
+          "ColumnOutputConfiguration": null,
+          "DeleteUnmatchedRowsInTarget": null,
+          "SelectedColumnInclusionInPartition": true
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxBasePluginsGui.UniversalOutput.UniversalOutput",
+        "Position": {
+          "@x": "1550",
+          "@y": "185"
+        }
+      },
+      "EngineSettings": {
+        "@EngineDll": "UniversalOutputTool.dll",
+        "@EngineDllEntryPoint": "UniversalOutputTool"
+      }
+    },
+    {
+      "@ToolID": "20",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "Monthly sales trend",
+          "DefaultAnnotationText": "Monthly sales trend"
+        },
+        "Configuration": {
+          "SortInfo": {
+            "@locale": "1033"
+          },
+          "SummarizeFields": {
+            "SummarizeField": [
+              {
+                "@field": "Month",
+                "@action": "GroupBy",
+                "@rename": "Month"
+              },
+              {
+                "@field": "Quantity",
+                "@action": "Sum",
+                "@rename": "Units"
+              },
+              {
+                "@field": "SalesValue",
+                "@action": "Sum",
+                "@rename": "SalesValue"
+              },
+              {
+                "@field": "OrderID",
+                "@action": "Count",
+                "@rename": "OrderCount"
+              }
+            ]
+          }
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxSpatialPluginsGui.Summarize.Summarize",
+        "Position": {
+          "@x": "990",
+          "@y": "355"
+        }
+      },
+      "EngineSettings": {
+        "@EngineDll": "AlteryxSpatialPluginsEngine.dll",
+        "@EngineDllEntryPoint": "AlteryxSummarize"
+      }
+    },
+    {
+      "@ToolID": "21",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "Chronological order",
+          "DefaultAnnotationText": "Chronological order"
+        },
+        "Configuration": {
+          "SortInfo": {
+            "Field": [
+              {
+                "@field": "Month",
+                "@order": "Ascending"
+              }
+            ],
+            "@locale": "1033"
+          }
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxBasePluginsGui.Sort.Sort",
+        "Position": {
+          "@x": "1130",
+          "@y": "355"
+        }
+      },
+      "EngineSettings": {
+        "@EngineDll": "AlteryxBasePluginsEngine.dll",
+        "@EngineDllEntryPoint": "AlteryxSort"
+      }
+    },
+    {
+      "@ToolID": "22",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "monthly_performance",
+          "DefaultAnnotationText": ""
+        },
+        "Configuration": {
+          "Path": "",
+          "Delim": ",",
+          "Action": "create",
+          "Format": "csv",
+          "Header": true,
+          "__page": "LIST_CONNECTIONS",
+          "FileName": "monthly_performance",
+          "HasQuotes": true,
+          "Operation": "create",
+          "SheetName": "Sheet1",
+          "TableName": "",
+          "TargetType": "",
+          "VendorName": "",
+          "__isLoaded": false,
+          "TableSchema": "",
+          "ColsToUpdate": null,
+          "ConnectionId": "-1",
+          "InsertChecked": null,
+          "MergeJoinKeys": null,
+          "PartitionName": "suffixToFileName",
+          "PartitionType": "noPartition",
+          "ConnectionName": "",
+          "OutputObjectId": null,
+          "OutputSettings": null,
+          "__previousPage": "LIST_CONNECTIONS",
+          "LastBrowsedPath": "",
+          "TableSchemaList": null,
+          "OnEveryRunAction": "",
+          "SelectedProtocol": "tfs",
+          "DatasetOriginator": true,
+          "IncludeMismatches": false,
+          "MatchedRowsAction": null,
+          "FileWriterSettingsId": "",
+          "PartitionUsingColumn": "",
+          "PublicationSettingsId": "",
+          "ConversionOutputSettings": {
+            "action": "create",
+            "subAction": "create"
+          },
+          "ColumnOutputConfiguration": null,
+          "DeleteUnmatchedRowsInTarget": null,
+          "SelectedColumnInclusionInPartition": true
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxBasePluginsGui.UniversalOutput.UniversalOutput",
+        "Position": {
+          "@x": "1270",
+          "@y": "355"
+        }
+      },
+      "EngineSettings": {
+        "@EngineDll": "UniversalOutputTool.dll",
+        "@EngineDllEntryPoint": "UniversalOutputTool"
+      }
+    },
+    {
+      "@ToolID": "23",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "Regional performance",
+          "DefaultAnnotationText": "Regional performance"
+        },
+        "Configuration": {
+          "SortInfo": {
+            "@locale": "1033"
+          },
+          "SummarizeFields": {
+            "SummarizeField": [
+              {
+                "@field": "Region",
+                "@action": "GroupBy",
+                "@rename": "Region"
+              },
+              {
+                "@field": "Quantity",
+                "@action": "Sum",
+                "@rename": "Units"
+              },
+              {
+                "@field": "SalesValue",
+                "@action": "Sum",
+                "@rename": "SalesValue"
+              },
+              {
+                "@field": "OrderID",
+                "@action": "Count",
+                "@rename": "OrderCount"
+              }
+            ]
+          }
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxSpatialPluginsGui.Summarize.Summarize",
+        "Position": {
+          "@x": "990",
+          "@y": "525"
+        }
+      },
+      "EngineSettings": {
+        "@EngineDll": "AlteryxSpatialPluginsEngine.dll",
+        "@EngineDllEntryPoint": "AlteryxSummarize"
+      }
+    },
+    {
+      "@ToolID": "24",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "Regions by sales value",
+          "DefaultAnnotationText": "Regions by sales value"
+        },
+        "Configuration": {
+          "SortInfo": {
+            "Field": [
+              {
+                "@field": "SalesValue",
+                "@order": "Descending"
+              }
+            ],
+            "@locale": "1033"
+          }
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxBasePluginsGui.Sort.Sort",
+        "Position": {
+          "@x": "1130",
+          "@y": "525"
+        }
+      },
+      "EngineSettings": {
+        "@EngineDll": "AlteryxBasePluginsEngine.dll",
+        "@EngineDllEntryPoint": "AlteryxSort"
+      }
+    },
+    {
+      "@ToolID": "25",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "regional_performance",
+          "DefaultAnnotationText": ""
+        },
+        "Configuration": {
+          "Path": "",
+          "Delim": ",",
+          "Action": "create",
+          "Format": "csv",
+          "Header": true,
+          "__page": "LIST_CONNECTIONS",
+          "FileName": "regional_performance",
+          "HasQuotes": true,
+          "Operation": "create",
+          "SheetName": "Sheet1",
+          "TableName": "",
+          "TargetType": "",
+          "VendorName": "",
+          "__isLoaded": false,
+          "TableSchema": "",
+          "ColsToUpdate": null,
+          "ConnectionId": "-1",
+          "InsertChecked": null,
+          "MergeJoinKeys": null,
+          "PartitionName": "suffixToFileName",
+          "PartitionType": "noPartition",
+          "ConnectionName": "",
+          "OutputObjectId": null,
+          "OutputSettings": null,
+          "__previousPage": "LIST_CONNECTIONS",
+          "LastBrowsedPath": "",
+          "TableSchemaList": null,
+          "OnEveryRunAction": "",
+          "SelectedProtocol": "tfs",
+          "DatasetOriginator": true,
+          "IncludeMismatches": false,
+          "MatchedRowsAction": null,
+          "FileWriterSettingsId": "",
+          "PartitionUsingColumn": "",
+          "PublicationSettingsId": "",
+          "ConversionOutputSettings": {
+            "action": "create",
+            "subAction": "create"
+          },
+          "ColumnOutputConfiguration": null,
+          "DeleteUnmatchedRowsInTarget": null,
+          "SelectedColumnInclusionInPartition": true
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxBasePluginsGui.UniversalOutput.UniversalOutput",
+        "Position": {
+          "@x": "1270",
+          "@y": "525"
+        }
+      },
+      "EngineSettings": {
+        "@EngineDll": "UniversalOutputTool.dll",
+        "@EngineDllEntryPoint": "UniversalOutputTool"
+      }
+    },
+    {
+      "@ToolID": "26",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "",
+          "DefaultAnnotationText": ""
+        },
+        "Configuration": {
+          "Font": {
+            "@name": "Lato, Regular",
+            "@size": "12",
+            "@style": "0"
+          },
+          "Text": "SALES PERFORMANCE & DATA QUALITY  |  JAN–MAY 2026\nPractice project • Five monthly files • Product, month and region insights",
+          "Shape": {
+            "@shape": "0"
+          },
+          "FillColor": {
+            "@name": "#dceaf7"
+          },
+          "TextColor": {
+            "@name": "#252D39"
+          },
+          "Justification": {
+            "@Justification": "3"
+          }
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxGuiToolkit.TextBox.TextBox",
+        "Position": {
+          "@x": "0",
+          "@y": "-95",
+          "@width": "1630",
+          "@height": "65"
+        }
+      }
+    },
+    {
+      "@ToolID": "27",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "",
+          "DefaultAnnotationText": ""
+        },
+        "Configuration": {
+          "Font": {
+            "@name": "Lato, Regular",
+            "@size": "12",
+            "@style": "0"
+          },
+          "Text": "01  INGEST\nMonthly CSV inputs",
+          "Shape": {
+            "@shape": "0"
+          },
+          "FillColor": {
+            "@name": "#d8f1eb"
+          },
+          "TextColor": {
+            "@name": "#252D39"
+          },
+          "Justification": {
+            "@Justification": "3"
+          }
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxGuiToolkit.TextBox.TextBox",
+        "Position": {
+          "@x": "0",
+          "@y": "0",
+          "@width": "240",
+          "@height": "70"
+        }
+      }
+    },
+    {
+      "@ToolID": "28",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "",
+          "DefaultAnnotationText": ""
+        },
+        "Configuration": {
+          "Font": {
+            "@name": "Lato, Regular",
+            "@size": "12",
+            "@style": "0"
+          },
+          "Text": "02  PREPARE & VALIDATE\nTypes → trim → rules → duplicate review",
+          "Shape": {
+            "@shape": "0"
+          },
+          "FillColor": {
+            "@name": "#e5e9fa"
+          },
+          "TextColor": {
+            "@name": "#252D39"
+          },
+          "Justification": {
+            "@Justification": "3"
+          }
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxGuiToolkit.TextBox.TextBox",
+        "Position": {
+          "@x": "285",
+          "@y": "125",
+          "@width": "510",
+          "@height": "65"
+        }
+      }
+    },
+    {
+      "@ToolID": "29",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "",
+          "DefaultAnnotationText": ""
+        },
+        "Configuration": {
+          "Font": {
+            "@name": "Lato, Regular",
+            "@size": "12",
+            "@style": "0"
+          },
+          "Text": "03  ENRICH\nValue + month",
+          "Shape": {
+            "@shape": "0"
+          },
+          "FillColor": {
+            "@name": "#e5e9fa"
+          },
+          "TextColor": {
+            "@name": "#252D39"
+          },
+          "Justification": {
+            "@Justification": "3"
+          }
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxGuiToolkit.TextBox.TextBox",
+        "Position": {
+          "@x": "805",
+          "@y": "125",
+          "@width": "145",
+          "@height": "65"
+        }
+      }
+    },
+    {
+      "@ToolID": "30",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "",
+          "DefaultAnnotationText": ""
+        },
+        "Configuration": {
+          "Font": {
+            "@name": "Lato, Regular",
+            "@size": "12",
+            "@style": "0"
+          },
+          "Text": "04  PRODUCT INSIGHTS\nValue and unit contribution",
+          "Shape": {
+            "@shape": "0"
+          },
+          "FillColor": {
+            "@name": "#fff0d6"
+          },
+          "TextColor": {
+            "@name": "#252D39"
+          },
+          "Justification": {
+            "@Justification": "3"
+          }
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxGuiToolkit.TextBox.TextBox",
+        "Position": {
+          "@x": "1380",
+          "@y": "45",
+          "@width": "245",
+          "@height": "70"
+        }
+      }
+    },
+    {
+      "@ToolID": "31",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "",
+          "DefaultAnnotationText": ""
+        },
+        "Configuration": {
+          "Font": {
+            "@name": "Lato, Regular",
+            "@size": "12",
+            "@style": "0"
+          },
+          "Text": "REVIEW OUTPUTS\nInvalid records and duplicate IDs stay visible.",
+          "Shape": {
+            "@shape": "0"
+          },
+          "FillColor": {
+            "@name": "#ffe7df"
+          },
+          "TextColor": {
+            "@name": "#252D39"
+          },
+          "Justification": {
+            "@Justification": "3"
+          }
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxGuiToolkit.TextBox.TextBox",
+        "Position": {
+          "@x": "500",
+          "@y": "685",
+          "@width": "410",
+          "@height": "70"
+        }
+      }
+    },
+    {
+      "@ToolID": "32",
+      "Properties": {
+        "Annotation": {
+          "Left": {
+            "@value": "False"
+          },
+          "Name": "",
+          "@DisplayMode": "0",
+          "AnnotationText": "",
+          "DefaultAnnotationText": ""
+        },
+        "Configuration": {
+          "Font": {
+            "@name": "Lato, Regular",
+            "@size": "12",
+            "@style": "0"
+          },
+          "Text": "SCOPE & DEFINITIONS\nSalesValue = Quantity × UnitPrice. Currency is unspecified.\nPractice data; no claim of production use or business impact.",
+          "Shape": {
+            "@shape": "0"
+          },
+          "FillColor": {
+            "@name": "#edf0f4"
+          },
+          "TextColor": {
+            "@name": "#252D39"
+          },
+          "Justification": {
+            "@Justification": "3"
+          }
+        }
+      },
+      "GuiSettings": {
+        "@Plugin": "AlteryxGuiToolkit.TextBox.TextBox",
+        "Position": {
+          "@x": "970",
+          "@y": "685",
+          "@width": "625",
+          "@height": "75"
+        }
+      }
+    }
+  ],
+  "workflowMode": "standard"
+}
